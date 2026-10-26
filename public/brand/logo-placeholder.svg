@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="100%" height="100%" fill="none">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C178"/>
+      <stop offset="45%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9C7935"/>
+    </linearGradient>
+    <linearGradient id="brightGoldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A059"/>
+      <stop offset="50%" stop-color="#F3DC9B"/>
+      <stop offset="100%" stop-color="#C5A059"/>
+    </linearGradient>
+    <radialGradient id="flameGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E58E26" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#B85D34" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#18191A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Glow -->
+  <circle cx="200" cy="110" r="70" fill="url(#flameGlow)" filter="blur(8px)"/>
+
+  <!-- Outer Double Gold Oval Frame -->
+  <ellipse cx="200" cy="160" rx="186" ry="144" stroke="url(#goldGrad)" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <ellipse cx="200" cy="160" rx="178" ry="136" stroke="url(#brightGoldGrad)" stroke-width="1.5"/>
+
+  <!-- Stylized Pot and Flames Glyph -->
+  <g transform="translate(200, 105)">
+    <!-- Rising Flame / Steam Tendrils -->
+    <path d="M-12,-8 C-18,-24 -8,-38 0,-48 C8,-38 18,-24 12,-8 C8,-18 2,-22 0,-30 C-2,-22 -8,-18 -12,-8 Z" fill="url(#brightGoldGrad)"/>
+    <path d="M-24,-4 C-32,-16 -24,-28 -18,-34 C-16,-24 -12,-20 -8,-14 Z" fill="url(#goldGrad)" opacity="0.85"/>
+    <path d="M24,-4 C32,-16 24,-28 18,-34 C16,-24 12,-20 8,-14 Z" fill="url(#goldGrad)" opacity="0.85"/>
+
+    <!-- Cooking Pot Body -->
+    <path d="M-36,8 C-36,32 36,32 36,8 C38,8 40,6 40,4 C40,2 38,0 34,0 L-34,0 C-38,0 -40,2 -40,4 C-40,6 -38,8 -36,8 Z" fill="url(#goldGrad)"/>
+    <!-- Pot Rim -->
+    <ellipse cx="0" cy="0" rx="36" ry="5" stroke="url(#brightGoldGrad)" stroke-width="2" fill="#18191A"/>
+    <!-- Pot Handles -->
+    <path d="M-36,6 C-46,6 -48,16 -37,18" stroke="url(#goldGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M36,6 C46,6 48,16 37,18" stroke="url(#goldGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Central Ember Dot -->
+    <circle cx="0" cy="14" r="3" fill="#E58E26"/>
+  </g>
+
+  <!-- Wordmark HOOK & COOK in Cinzel / Serif with wide letter spacing -->
+  <text x="200" y="210" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-weight="700" font-size="28" fill="url(#brightGoldGrad)" letter-spacing="6">HOOK &amp; COOK</text>
+
+  <!-- Decorative Hairline Flankers -->
+  <line x1="80" y1="228" x2="140" y2="228" stroke="url(#goldGrad)" stroke-width="1"/>
+  <circle cx="145" cy="228" r="2" fill="url(#goldGrad)"/>
+  <circle cx="255" cy="228" r="2" fill="url(#goldGrad)"/>
+  <line x1="260" y1="228" x2="320" y2="228" stroke="url(#goldGrad)" stroke-width="1"/>
+
+  <!-- Subtitle BAR & RESTAURANT -->
+  <text x="200" y="233" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-weight="600" font-size="12" fill="#C5A059" letter-spacing="4">BAR &amp; RESTAURANT</text>
+
+  <!-- Small Location Tag -->
+  <text x="200" y="258" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="500" font-size="9" fill="#A8A29E" letter-spacing="2">NAIROBI</text>
+</svg>

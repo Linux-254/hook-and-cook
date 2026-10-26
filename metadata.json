@@ -1,0 +1,6 @@
+{
+  "name": "Hook & Cook Bar and Restaurant",
+  "description": "Premium Nairobi restaurant, sports lounge and digital QR menu with WhatsApp ordering and M-Pesa integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
