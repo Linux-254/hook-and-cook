@@ -42,7 +42,6 @@ export const LocationMapCard: React.FC = () => {
 
             <div className="text-sm text-[#A8A29E] space-y-2 font-['Inter']">
               <p className="text-[#F5F1E8] font-medium">{siteConfig.address}</p>
-              <p className="text-xs text-[#C5A059]/90 font-mono">[{siteConfig.addressNote}]</p>
               <p className="pt-1">
                 <strong>Hours:</strong> {siteConfig.hours}
               </p>

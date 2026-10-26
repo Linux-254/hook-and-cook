@@ -84,7 +84,6 @@ export const Footer: React.FC = () => {
             </h4>
             <div className="text-sm text-[#A8A29E] space-y-1">
               <p>{siteConfig.address}</p>
-              <p className="text-xs text-[#C5A059]/80 font-mono">[{siteConfig.addressNote}]</p>
               <p className="pt-2">
                 <a
                   href={`tel:${siteConfig.phoneTel}`}
